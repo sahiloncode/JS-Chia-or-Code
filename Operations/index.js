@@ -14,7 +14,10 @@ let str2=" Rajput"
 console.log(str1 + str2); // Output: SahilRajput 
 
 console.log("1" + 2); // Output: 12
+console.log(1 + "2"); // Output: 12
 console.log(1 - "2"); // Output: -1
+console.log("1" + 2 + 2); // Output: 122
+console.log(1 + 2 + "2"); // Output: 122
 
 //in that case which we use first number as string then it will convert the second number to string and concatenate them
 //and if we use first number as number then it will convert the second number to number and perform the operation

@@ -26,3 +26,8 @@
 // 5. Undefined => Undefined
 // 6. Symbol => Symbol
 // 7. BigInt => BigInt
+// 8. Array => Object
+// 9. Object => Object
+// 10. Function => Function(object)
+
+// To check the type of variable in JavaScript we use typeof operator
